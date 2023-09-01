@@ -732,6 +732,64 @@
         </div>
     </div>
 
+    <div class="w-lg-80 mx-auto">
+      <form class="js-validate card shadow-lg mb-4" action="/onboarding/" novalidate="novalidate" data-hs-cf-bound="true">
+        <div class="card-header border-0 bg-light text-center py-4 px-4 px-md-6">
+          <h2 class="h4 mb-0">Datos de contacto</h2>
+        </div>
+
+        <div class="card-body p-4 p-md-6">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="js-form-message form-group">
+                <label for="firstNameExample1" class="input-label">Nombre</label>
+                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="Sofía" aria-label="Sofía" required="" data-msg="Por favor, ingresa tu nombre">
+              </div>
+            </div>
+
+            <div class="col-sm-6 px-2">
+              <div class="js-form-message form-group">
+                <label for="lastNameExample1" class="input-label">Apellido</label>
+                <input type="text" class="form-control" name="lastname" id="firstname" placeholder="Gonzalez" aria-label="Gonzalez" required="" data-msg="Por favor, ingresa tu apellido">
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <!-- Form Group -->
+              <div class="js-form-message form-group">
+                <label for="workEmailAddress" class="input-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="sofia@empresa.cl" aria-label="Sofía" required="" data-msg="Por favor, ingresa tu email de empresa">
+              </div>
+              <!-- End Form Group -->
+            </div>
+
+            <div class="col-sm-6 px-2">
+              <!-- Form Group -->
+              <div class="js-form-message form-group">
+                <label for="phoneLabel" class="input-label">Teléfono</label>
+                <input type="phone" class="form-control" name="phone" id="lastNameExample1" placeholder="9 8809 0687" aria-label="Gonzalez" required="" data-msg="Por favor, ingresa tu teléfono">
+              </div>
+              <!-- End Form Group -->
+            </div>
+
+            <div class="col-sm-12">
+              <!-- Form Group -->
+              <div class="js-form-message form-group">
+                <label for="message" class="input-label">Mensaje</label>
+                <div class="input-group">
+                  <textarea class="form-control" rows="4" name="message" id="message" placeholder="Hola, necesito ayuda con..." aria-label="Hola, necesito ayuda con..." required="" data-msg="Por favor, escribe un mensaje"></textarea>
+                </div>
+              </div>
+              <!-- End Form Group -->
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-block btn-primary transition-3d-hover">Contactar</button>
+        </div>
+      </form>
+      <!-- End Contacts Form -->
+    </div>
+
   </main>
 
   <footer class="container text-center content-space-1">
